@@ -30,7 +30,7 @@
     /* padding-left: 10%;
     padding-right: 10%;
     gap: 2%; */
-    border: 6px solid white;
+    /* border: 6px solid white; */
 
 }
 
@@ -52,23 +52,15 @@
 }
 
 .slogan h1 {
-    /* width: 60%; */
-    /* margin-bottom: 5%; */
+   
     font-size: 3rem;
-    /* line-height: 3.5rem; */
-    /* width: 720px;
-    height: 250px; */
 
     /* border: 1px solid white; */
 }
 
 .slogan p {
-    /* width: 80%; */
     font-size: 1rem;
-    /* margin-right: 5%; */
-
-  
-    /* border: 1px solid white; */
+   
 }
 
 .form {
@@ -120,7 +112,7 @@
 .form-fill input{
     min-height: 0;
     padding: 5%;
-    border: 1px solid var(--Grayish-Blue);
+    border: 0.5px solid var(--Grayish-Blue);
     border-radius: 5px;
     overflow: hidden;
     font-family: var(--primary-font);
@@ -156,4 +148,59 @@
 .form-fill span{
     color: var(--Red);
     font-weight: 600;
+}
+
+/* tablet or mobile */
+@media (max-width:768px){
+    .bg{
+        max-width: 768px;
+        flex-direction: column;
+        padding: 15% 2% 10% 2%;
+        gap: 7%;    
+    }
+
+    .slogan {
+        width: 90%;
+        /* gap: 20px; */
+        text-align: center;
+    
+    }
+
+    .slogan h1 {
+        font-size: 1.5rem;
+        /* border: 1px solid white; */
+    }
+    
+    .slogan p {
+        font-size: 1rem;
+        /* border: 1px solid white; */
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .form-trial {
+        padding: 8% 20%;
+        
+    }
+
+    .form-fill {
+        padding: 10%;
+
+    }
+    .form-fill input{
+        padding: 8% 8% 8% 8%;
+      
+    }
+
+    .form-fill input[type="submit"]{
+        font-size: 0.9rem;
+    }
+
+    .form-fill label{
+        font-size: 0.7rem;
+        
+    }
+    
 }
