@@ -10,11 +10,18 @@ const App = () => {
       </div>
 
       <div className="form">
-        <button className="form-trial">
-
-        </button>
+        <div className="form-trial">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </div>
         <div  className="form-fill">
-
+          <form>
+            <input type="text" placeholder="First Name"></input>
+            <input type="text" placeholder="Last Name"></input>            
+            <input type="text" placeholder="Email Address"></input>
+            <input type="text" placeholder="Password"></input>
+            <input type="submit" value="Claim your free trial"></input>
+            <label>By clicking the button, you are agreeing to our <span>Terms and Services</span></label>
+          </form>
         </div>
       </div>
 
