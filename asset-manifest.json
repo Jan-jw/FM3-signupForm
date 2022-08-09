@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FM3-signupForm/static/css/main.0b13d5d1.css",
+    "main.css": "/FM3-signupForm/static/css/main.24c68d1e.css",
     "main.js": "/FM3-signupForm/static/js/main.98b88e3e.js",
     "static/media/bg-intro-desktop.png": "/FM3-signupForm/static/media/bg-intro-desktop.059183eea52640c5068d.png",
     "index.html": "/FM3-signupForm/index.html",
-    "main.0b13d5d1.css.map": "/FM3-signupForm/static/css/main.0b13d5d1.css.map",
+    "main.24c68d1e.css.map": "/FM3-signupForm/static/css/main.24c68d1e.css.map",
     "main.98b88e3e.js.map": "/FM3-signupForm/static/js/main.98b88e3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b13d5d1.css",
+    "static/css/main.24c68d1e.css",
     "static/js/main.98b88e3e.js"
   ]
 }
