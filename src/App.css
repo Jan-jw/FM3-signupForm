@@ -4,7 +4,6 @@
     /* primary colors */
     --Red: hsl(0, 100%, 74%);
     --Green: hsl(154, 59%, 51%);
-    /* --Green-hover: hsl(154, 73%, 55%); */
 
     --Blue: hsl(248, 32%, 49%);
     --Dark-Blue: hsl(249, 10%, 26%);
@@ -28,11 +27,6 @@
     padding-left: 150px;
     padding-right: 150px;
     gap: 10px;
-    /* padding-left: 10%;
-    padding-right: 10%;
-    gap: 2%; */
-    /* border: 6px solid white; */
-
 }
 
 
@@ -40,41 +34,24 @@
     font-family: var(--primary-font);
     color: white;
     width: 530px;
-    /* width: 40%; */
-    /* width: 720px;
-    height: 250px; */
-    /* margin-left: 10%;
-    /* margin-right: 0; */
     display: flex;
     flex-direction: column;
     gap: 20px;
-
-    /* border: 2px solid white; */
 }
 
 .slogan h1 {
-   
     font-size: 3rem;
-
-    /* border: 1px solid white; */
 }
 
 .slogan p {
     font-size: 1rem;
-   
 }
 
 .form {
-    /* width: 40%; */
-    /* width: 720px;
-    height: 100%; */
     width: 600px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    /* border: 6px solid white; */
-
-    /* display: none; */
 }
 
 .form div{
@@ -83,7 +60,6 @@
 }
 
 .form-trial {
-    /* height: 4rem; */
     background-color: var(--Blue);
     padding: 20px;
     color: white;
@@ -91,23 +67,15 @@
 }
 
 .form-fill {
-    /* height: 50%; */
-
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 40px;
-
-    /* border: 2px solid blue; */
 }
 
 .form-fill form{
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
-    /* gap: 15%; */
-
-    /* border: 3px solid black; */
 }
 
 .form-fill input{
@@ -117,13 +85,9 @@
     overflow: hidden;
     font-family: var(--primary-font);
     font-weight: 500;
-    -webkit-border-radius: 5px;
-
-    /* position: relative;
-    right: 9px; */
+    border-radius: 5px;
     margin-top: 4%;
     
-    /* background: url('../public/images/icon-error.svg') 90% center no-repeat; */
 }
 
 .form-fill input:not([type="submit"]):focus{
@@ -142,17 +106,18 @@
 
 }
 
+
 .form-fill input[type="submit"]{
     background-color: var(--Green);
-    border-color: var(--Green);
+    border: 5px solid var(--Green);
     color: white;
     text-transform: uppercase;
     font-size: 1rem;
+
 }
 
 .form-fill input[type="submit"]:hover{
     cursor: pointer;
-    /* background-color: var(--Green-hover); */
     filter: brightness(115%);
 }
 
@@ -227,6 +192,8 @@
 
     .form-fill input[type="submit"]{
         font-size: 0.9rem;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
     }
 
     .form-fill label{
