@@ -4,7 +4,7 @@
     /* primary colors */
     --Red: hsl(0, 100%, 74%);
     --Green: hsl(154, 59%, 51%);
-    --Green-hover: hsl(154, 73%, 55%);
+    /* --Green-hover: hsl(154, 73%, 55%); */
 
     --Blue: hsl(248, 32%, 49%);
     --Dark-Blue: hsl(249, 10%, 26%);
@@ -17,6 +17,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: var(--primary-font);
+    
 }
 
 .bg{
@@ -104,7 +105,7 @@
     /* height: 100%; */
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15%; */
 
     /* border: 3px solid black; */
 }
@@ -112,16 +113,33 @@
 .form-fill input{
     min-height: 0;
     padding: 5%;
-    border: 0.5px solid var(--Grayish-Blue);
+    border: 1px solid var(--Grayish-Blue);
     overflow: hidden;
     font-family: var(--primary-font);
     font-weight: 500;
     -webkit-border-radius: 5px;
-  
+
+    /* position: relative;
+    right: 9px; */
+    margin-top: 4%;
+    
+    /* background: url('../public/images/icon-error.svg') 90% center no-repeat; */
 }
-.form-fill input[type="text"]:focus{
+
+.form-fill input:not([type="submit"]):focus{
     outline: none !important;
-    border: 1px solid var(--Blue);
+    border: 2px solid var(--Blue);
+    
+    
+}
+
+.form-fill label:not([for="submit"]){
+    align-self: end;
+    color: var(--Red);
+    font-size: 0.8rem;
+    margin-top: 1%;
+    display: none;
+
 }
 
 .form-fill input[type="submit"]{
@@ -134,15 +152,18 @@
 
 .form-fill input[type="submit"]:hover{
     cursor: pointer;
-    background-color: var(--Green-hover);
+    /* background-color: var(--Green-hover); */
+    filter: brightness(115%);
 }
 
 
-.form-fill label{
+.form-fill label[for="submit"]{
     text-align: center;
     color: var(--Grayish-Blue);
     font-size: 12px;
     font-weight: 500;
+    margin-top: 1%;
+
 }
 
 .form-fill span{

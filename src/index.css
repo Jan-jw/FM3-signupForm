@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100vw;
 
-    background: var(--Red) url("../public/images/bg-intro-desktop.png") left top/auto ;
+    background: var(--Red) url("./images/bg-intro-desktop.png") left top/auto ;
     /* background-size: cover; */
 
     
